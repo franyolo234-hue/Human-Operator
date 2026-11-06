@@ -1,0 +1,21 @@
+# VoiceHaptic — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core serial communication
+pyserial>=3.5
+
+# HTTP API gateway
+flask>=2.3.0
+
+# Offline speech recognition (Vosk)
+vosk>=0.3.45
+
+# Audio capture
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Calibration GUI
+PyQt5>=5.15.0
+
+# Optional: matplotlib for waveform visualization in pattern designer
+matplotlib>=3.7.0
